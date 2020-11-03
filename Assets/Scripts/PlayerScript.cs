@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerScript : MonoBehaviour
 {
     bool isAlive = true;
-   [SerializeField] float movementSpeed=1f;
+    [SerializeField] float movementSpeed=1f;
     [SerializeField] float jumpHeight = 5f;
     float currentLocalScaleX;
     Rigidbody2D myRigidBody;
